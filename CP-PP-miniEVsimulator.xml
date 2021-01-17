@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/sauttefk/Documents/kicad/projects/CP-PP-miniEVsimulator/CP-PP-miniEVsimulator.sch</source>
+    <date>Sunday, 17 January 2021 at 01:36:20</date>
+    <tool>Eeschema (5.1.7-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CP-PP-miniEVsimulator</title>
+        <company>pulsatrix gmbh</company>
+        <rev>v1.0</rev>
+        <date>2021-01-16</date>
+        <source>CP-PP-miniEVsimulator.sch</source>
+        <comment number="1" value="pulsatrix.com"/>
+        <comment number="2" value="Frank Sautter"/>
+        <comment number="3" value="DE-71088 Holzgerlingen"/>
+        <comment number="4" value="Bebelsbergstr. 31"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D5">
+      <value>1N4934</value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60043952</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>Switch_SPDT</value>
+      <footprint>_sauttefk:miniatureToggleSwitch_12.7x6.6</footprint>
+      <libsource lib="_sauttefk" part="Switch_SPDT" description="Switch Single Pole Double Throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004396C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2.7kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60043988</tstamp>
+    </comp>
+    <comp ref="Ra2">
+      <value>39Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004399E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1.3kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600439B4</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>Switch_SPDT</value>
+      <footprint>_sauttefk:miniatureToggleSwitch_12.7x6.6</footprint>
+      <libsource lib="_sauttefk" part="Switch_SPDT" description="Switch Single Pole Double Throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600439CA</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>Switch_SPDT</value>
+      <footprint>_sauttefk:miniatureToggleSwitch_12.7x6.6</footprint>
+      <libsource lib="_sauttefk" part="Switch_SPDT" description="Switch Single Pole Double Throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600439E6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>270Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60043A02</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>Switch_SPDT</value>
+      <footprint>_sauttefk:miniatureToggleSwitch_12.7x6.6</footprint>
+      <libsource lib="_sauttefk" part="Switch_SPDT" description="Switch Single Pole Double Throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60043A29</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>120Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60043A45</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>Switch_SPDT</value>
+      <footprint>_sauttefk:miniatureToggleSwitch_12.7x6.6</footprint>
+      <libsource lib="_sauttefk" part="Switch_SPDT" description="Switch Single Pole Double Throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60043A63</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_Relief</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60043A8F</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_Relief</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60043AA6</tstamp>
+    </comp>
+    <comp ref="S6">
+      <value>Switch_SPDT</value>
+      <footprint>_sauttefk:miniatureToggleSwitch_12.7x6.6</footprint>
+      <libsource lib="_sauttefk" part="Switch_SPDT" description="Switch Single Pole Double Throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6004F9F8</tstamp>
+    </comp>
+    <comp ref="S7">
+      <value>Switch_SPDT</value>
+      <footprint>_sauttefk:miniatureToggleSwitch_12.7x6.6</footprint>
+      <libsource lib="_sauttefk" part="Switch_SPDT" description="Switch Single Pole Double Throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60051D51</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1.5kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60053381</tstamp>
+    </comp>
+    <comp ref="Ra7">
+      <value>47Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6005533A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>330Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600563BD</tstamp>
+    </comp>
+    <comp ref="S8">
+      <value>Switch_SPDT</value>
+      <footprint>_sauttefk:miniatureToggleSwitch_12.7x6.6</footprint>
+      <libsource lib="_sauttefk" part="Switch_SPDT" description="Switch Single Pole Double Throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60058020</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>180Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60058DAB</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>68Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600595F7</tstamp>
+    </comp>
+    <comp ref="S9">
+      <value>Switch_SPDT</value>
+      <footprint>_sauttefk:miniatureToggleSwitch_12.7x6.6</footprint>
+      <libsource lib="_sauttefk" part="Switch_SPDT" description="Switch Single Pole Double Throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6005CCDF</tstamp>
+    </comp>
+    <comp ref="S10">
+      <value>Switch_SPDT</value>
+      <footprint>_sauttefk:miniatureToggleSwitch_12.7x6.6</footprint>
+      <libsource lib="_sauttefk" part="Switch_SPDT" description="Switch Single Pole Double Throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60060C2D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01_Female</value>
+      <footprint>Connector_Wire:SolderWire-0.25sqmm_1x01_D0.65mm_OD2mm_Relief</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60081181</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1.2kΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="_sauttefk" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60086E33</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_sauttefk" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_sauttefk" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="_sauttefk" part="Switch_SPDT">
+      <description>Switch Single Pole Double Throw</description>
+      <fields>
+        <field name="Reference">Sw</field>
+        <field name="Value">Switch_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="NO" type="passive"/>
+        <pin num="3" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="_sauttefk">
+      <uri>/Users/sauttefk/Documents/kicad/libraries/_sauttefk.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R1-Pad2)">
+      <node ref="S1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="2" name="/CP">
+      <node ref="J1" pin="1"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(R3-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="S4" pin="3"/>
+      <node ref="Ra2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R2-Pad1)">
+      <node ref="Ra2" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(S2-Pad3)">
+      <node ref="S2" pin="3"/>
+    </net>
+    <net code="7" name="Net-(R3-Pad2)">
+      <node ref="S2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="S3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(S3-Pad3)">
+      <node ref="S3" pin="3"/>
+    </net>
+    <net code="9" name="Net-(R4-Pad2)">
+      <node ref="S3" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R1-Pad1)">
+      <node ref="S4" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D5-Pad2)">
+      <node ref="S4" pin="1"/>
+      <node ref="S5" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="12" name="Net-(S5-Pad3)">
+      <node ref="S5" pin="3"/>
+    </net>
+    <net code="13" name="Net-(S6-Pad3)">
+      <node ref="S6" pin="3"/>
+    </net>
+    <net code="14" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="S7" pin="2"/>
+      <node ref="S6" pin="1"/>
+    </net>
+    <net code="15" name="Net-(S7-Pad3)">
+      <node ref="S7" pin="3"/>
+    </net>
+    <net code="16" name="/PE">
+      <node ref="J2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Ra7" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="S5" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="17" name="Net-(R7-Pad2)">
+      <node ref="S8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="S7" pin="1"/>
+    </net>
+    <net code="18" name="Net-(S8-Pad3)">
+      <node ref="S8" pin="3"/>
+    </net>
+    <net code="19" name="Net-(R8-Pad2)">
+      <node ref="S9" pin="2"/>
+      <node ref="S8" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="20" name="Net-(S9-Pad3)">
+      <node ref="S9" pin="3"/>
+    </net>
+    <net code="21" name="Net-(R10-Pad2)">
+      <node ref="S10" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="22" name="Net-(R9-Pad2)">
+      <node ref="S10" pin="2"/>
+      <node ref="S9" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="23" name="Net-(S10-Pad3)">
+      <node ref="S10" pin="3"/>
+    </net>
+    <net code="24" name="/PP">
+      <node ref="J3" pin="1"/>
+      <node ref="S6" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="Ra7" pin="2"/>
+    </net>
+  </nets>
+</export>

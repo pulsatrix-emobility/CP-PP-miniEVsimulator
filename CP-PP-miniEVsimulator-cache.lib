@@ -1,0 +1,75 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Conn_01x01_Female
+#
+DEF Connector_Conn_01x01_Female J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x01_Female" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+P 2 1 1 6 -50 0 -20 0 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# _sauttefk_D
+#
+DEF _sauttefk_D D 0 40 N N 1 F N
+F0 "D" 50 50 30 H V L BNN
+F1 "_sauttefk_D" 0 -80 30 H V C BNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ D?
+ S*
+$ENDFPLIST
+DRAW
+P 2 0 0 0 30 0 -30 0 N
+P 2 0 1 0 -30 40 -30 -40 N
+P 5 0 1 0 30 0 30 40 -30 0 30 -40 30 0 N
+X K 1 -100 0 70 R 40 40 1 1 P
+X A 2 100 0 70 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# _sauttefk_R
+#
+DEF _sauttefk_R R 0 40 N N 1 F N
+F0 "R" 100 40 30 H V L TNN
+F1 "_sauttefk_R" 0 0 30 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ R?
+$ENDFPLIST
+DRAW
+S -90 30 90 -30 0 1 0 N
+X ~ 1 -150 0 60 R 31 31 1 1 P
+X ~ 2 150 0 60 L 31 31 1 1 P
+ENDDRAW
+ENDDEF
+#
+# _sauttefk_Switch_SPDT
+#
+DEF _sauttefk_Switch_SPDT Sw 0 0 N N 1 F N
+F0 "Sw" -225 100 39 H V L CNN
+F1 "_sauttefk_Switch_SPDT" -225 -100 39 H I L CNN
+F2 "" 750 -25 60 H V C CNN
+F3 "" 750 -25 60 H V C CNN
+DRAW
+P 2 0 1 0 -50 25 -50 50 N
+P 2 0 1 0 -10 25 -50 25 N
+P 2 0 1 0 0 -50 -25 50 N
+X COM 1 0 -150 100 U 31 31 0 1 P
+X NO 2 0 150 100 D 31 31 0 1 P
+X NC 3 -50 150 100 D 31 31 0 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
