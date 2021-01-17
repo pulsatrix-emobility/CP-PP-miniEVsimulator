@@ -7,33 +7,35 @@ This is a small PBC to simulate the CP signal of an electric vehicle (EV) and th
 
 ![CP-PP-EV-simulator back](CP-PP-miniEVsimulator-B.png)
 
+![CP-PP-EV-simulator schematic](CP-PP-miniEVsimulator-schematic.png)
+
 [PDF Schematic](CP-PP-miniEVsimulator.pdf)
 
 ## CP signal
 The EV shows different resistor values to signal its status.
 5 miniature toggle switches allow to simulate the CP signal for following EV states:
-| status | switches closed  | description         |
-| ------ | ---------------- | ------------------- |
-| A      | none             | EV disconnected     |
-| B      | S1               | EV connected        |
-| C      | S1,2             | charging request    |
-| D      | S1,2,3           | ventilation request |
-| E      | S1,2,3,4         | short circuit       |
-| R      | S1,5(,2,3,4)     | diode shorted       |
+| status | S1  | S2  | S3  | S4  | S5  | description         |
+| ------ | --- | --- | --- | --- | --- | ------------------- |
+| A      | off |  x  |  x  |  x  |  x  | EV disconnected     |
+| B      | on  | off |  x  | off | off | EV connected        |
+| C      | on  | on  | off | off | off | charging request    |
+| D      | on  | on  | on  | off | off | ventilation request |
+| E      | on  |  x  |  x  |  on | off | short circuit       |
+| R      | on  |  x  |  x  |  x  | on  | diode shorted       |
 
 ## PP signal
 Different resistor values in the connector on each side fo the charging cable signal the EVSE and the EV the ampaticity of the cable, to avoid an overload condition.
 Another 5 toggles switches allow to simulate the PP signal for the following cable ampacities:
-| ampacity     | switches closed |
-| ------------ | --------------- |
-| disconnected | none            |
-| 13A          | S6              |
-| 20A          | S6,7            |
-| 32A          | S6,7,8          |
-| 63A          | S6,7,8,9        |
-| short        | S6,7,8,9,10     |
+| ampacity     | S6  | S7  | S8  | S9  | S10 |
+| ------------ | ----| --- | --- | --- | --- |
+| disconnected | off |  x  |  x  |  x  |  x  |
+| 13A          | on  | off |  x  |  x  |  x  |
+| 20A          | on  | on  | off |  x  |  x  |
+| 32A          | on  | on  | on  | off |  x  |
+| 63A          | on  | on  | on  | on  | off |
+| short        | on  | on  | on  | on  | on  |
 
-The PP part of the PCB can be broken off to reduce PCB size when PP simulation is not nedded.
+The PP part of the PCB can be broken off to reduce PCB size when the PP simulation is not nedded.
 
 ### Bill of materials
 | designator | value   |
