@@ -24,7 +24,7 @@ The EV shows different resistor values to signal its status.
 | R      | on  |  x  |  x  |  x  | on  | diode shorted       |
 
 ## PP signal
-Different resistor values in the connector on each side fo the charging cable signal the EVSE and the EV the ampaticity of the cable, to avoid an overload condition.
+Different resistor values in the connector on each side fo the charging cable signal the EVSE and the EV the ampacity of the cable, to avoid an overload condition.
 Another 5 toggles switches allow to simulate the PP signal for the following cable ampacities:
 | ampacity     | S6  | S7  | S8  | S9  | S10 |
 | ------------ | ----| --- | --- | --- | --- |
