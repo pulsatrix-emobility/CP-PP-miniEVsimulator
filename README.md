@@ -55,3 +55,6 @@ The PP part of the PCB can be broken off to reduce PCB size when the PP simulati
 | S1,S2,S3,S4,S5,S6,S7,S8,S9,S10 | miniature Toggle switch |
 | case       | hammond 1551K |
 |            | 2mm zip tie  |
+
+### Simulation of the simulator
+The simulator can be simulated here: https://tra.fo/cp-simulation
